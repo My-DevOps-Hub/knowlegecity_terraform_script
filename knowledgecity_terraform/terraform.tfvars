@@ -68,12 +68,12 @@ lb_target_group_name_secondary  = "secondary-tg"
 
 #Auto scaling group related changes
 #Primary region Auto scaling group related changes ( name, min instance count, max instance count, desired instance count )
-asg_name_primary                = "asg_secondary"
+asg_name_primary                = "asg_primary"
 desired_capacity_primary        = "2"
 min_size_primary                = "2"
 max_size_primary                = "4"
 #Secondary region Auto scaling group related changes ( name, min instance count, max instance count, desired instance count )
-asg_name_secondary              = "asg_primary"
+asg_name_secondary              = "asg_secondary"
 desired_capacity_secondary      = "2"
 min_size_secondary              = "2"
 max_size_secondary              = "4"
