@@ -119,7 +119,7 @@ cname_record_name_primary_write = "primary-write.database.internal"
 cname_record_name_secondary_read = "secondary-read.database.internal"
 
 
-
+#Security groups related changes
 primary-alb-security-group_name = "primary-alb-security-group_1"
 primary-alb-security-group_1_name = "primary-alb-security-group_2"
 primary-alb-security-group_description = "security group 1 of the primary alb"
