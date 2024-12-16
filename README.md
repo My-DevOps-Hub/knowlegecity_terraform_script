@@ -13,10 +13,10 @@ To securely store the database password, AWS Secrets Manager is used. Instructio
 Instructions to Run the Script
 Create a secret in AWS Secrets Manager with the database password, as outlined in terraform.tfvars.
 Run the following commands:
-bash
-Copy code
+
 terraform init  
 terraform plan  
 terraform apply  
+
 Ensure all prerequisites are met, including configuring AWS credentials and creating the necessary secret in AWS Secrets Manager, before running the script.
 
